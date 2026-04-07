@@ -124,7 +124,12 @@ Airflow initializes automatically before starting its services.
 - 📄 Exportable anomaly reports (PDF)
 - 🐳 One-command deployment with Docker
 
-This project showcases:
+## 🎯 Why This Project Matters
+
+Financial markets require real-time monitoring to detect abnormal behavior such as sudden price crashes, liquidity spikes, or potential manipulation.
+
+StreamIQ demonstrates how modern data engineering and machine learning tools can be combined to build a scalable, real-time anomaly detection system similar to those used in fintech and trading platforms.
+This Project showcases: 
 
 - ✅ End-to-end data engineering pipeline
 - ✅ Real-time stream processing
