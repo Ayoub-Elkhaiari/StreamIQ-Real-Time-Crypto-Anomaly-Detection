@@ -1,5 +1,23 @@
-# 🚀 StreamIQ — Real-Time Crypto Anomaly Detection
+# 🚀 StreamIQ: Real-Time Crypto Anomaly Detection
 
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+
+[![Apache Kafka](https://img.shields.io/badge/Kafka-Streaming%20Pipeline-231F20?logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
+[![Apache Spark](https://img.shields.io/badge/Spark-Streaming-FDEE21?logo=apachespark&logoColor=black)](https://spark.apache.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?logo=redis&logoColor=white)](https://redis.io/)
+
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-IsolationForest-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Machine Learning](https://img.shields.io/badge/ML-Anomaly%20Detection-8A2BE2?logoColor=white)]()
+[![Airflow](https://img.shields.io/badge/Airflow-Orchestration-017CEE?logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
+
+[![Real-Time](https://img.shields.io/badge/Processing-Real--Time-success?logoColor=white)]()
+[![Microservices](https://img.shields.io/badge/Architecture-Microservices-blueviolet?logoColor=white)]()
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 StreamIQ is a real-time data platform that monitors the **top 50 cryptocurrencies** and detects unusual market behavior using streaming pipelines and machine learning.
 
 Instead of just tracking prices, StreamIQ focuses on **identifying anomalies as they happen** — such as sudden spikes, drops, or abnormal trading activity.
