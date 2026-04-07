@@ -26,7 +26,7 @@
 
 StreamIQ is a real-time data platform that monitors the **top 50 cryptocurrencies** and detects unusual market behavior using streaming pipelines and machine learning.
 
-Instead of just tracking prices, StreamIQ focuses on **identifying anomalies as they happen** — such as sudden spikes, drops, or abnormal trading activity.
+Instead of just tracking prices, StreamIQ focuses on **identifying anomalies as they happen** such as sudden spikes, drops, or abnormal trading activity.
 
 ---
 
