@@ -1,0 +1,15 @@
+.button {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+  color: #ffffff;
+  font-weight: 700;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+}

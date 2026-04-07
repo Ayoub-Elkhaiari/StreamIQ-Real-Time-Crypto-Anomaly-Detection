@@ -1,0 +1,40 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.card {
+  background: #16161f;
+  border: 1px solid #2a2a3a;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 1px rgba(99, 102, 241, 0.3), 0 8px 26px rgba(0, 0, 0, 0.5);
+}
+
+.accent {
+  border-color: #6366f1;
+}
+
+.label {
+  color: #94a3b8;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+}
+
+.value {
+  color: #f1f5f9;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}

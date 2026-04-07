@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "model_type": "IsolationForest",
+  "features": [
+    "current_price",
+    "total_volume",
+    "price_change_percentage_24h",
+    "price_change_percentage_1h",
+    "high_low_range_pct",
+    "volume_to_market_cap",
+    "market_cap_rank",
+    "circulating_supply",
+    "price_vs_high_24h",
+    "price_vs_low_24h"
+  ],
+  "contamination": 0.03,
+  "training_samples": 50000,
+  "training_date": "2026-04-06T07:00:20.206074",
+  "note": "Bootstrap model \u2014 auto-retrained daily with real CoinGecko data via Airflow"
+}

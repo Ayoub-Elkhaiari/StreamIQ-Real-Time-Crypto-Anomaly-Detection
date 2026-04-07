@@ -1,0 +1,10 @@
+.page{font-family:Inter,system-ui,sans-serif;background:#f5f5f5;color:#111;min-height:100vh;padding:20px}
+.header{display:flex;justify-content:space-between;align-items:center}
+.header h1 span{font-weight:500;color:#9e9e9e;font-size:18px;margin-left:8px}
+.liveWrap{font-weight:700}
+.dotLive{color:#ef4444;animation:blink 1s infinite}
+.dotIdle{color:#9e9e9e}
+@keyframes blink{50%{opacity:.35}}
+.grid2{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-top:14px}
+.panel{background:#fff;border:1px solid #e0e0e0;border-radius:10px;padding:12px;margin-top:14px}
+.panelHeader{display:flex;justify-content:space-between;align-items:center}

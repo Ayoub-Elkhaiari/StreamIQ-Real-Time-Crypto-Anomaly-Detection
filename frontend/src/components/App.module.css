@@ -1,0 +1,119 @@
+.page {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #0a0a0f;
+  color: #f1f5f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  border-bottom: 1px solid #2a2a3a;
+  margin-bottom: 8px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.logoText {
+  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  margin-left: 8px;
+  font-weight: 500;
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+.liveWrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: 1px solid #2a2a3a;
+  border-radius: 999px;
+  background: #111118;
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.dotLive {
+  color: #10b981;
+  animation: pulse 1.2s ease-in-out infinite;
+  text-shadow: 0 0 8px #10b981;
+}
+
+.dotIdle {
+  color: #475569;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.9; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.1); }
+  100% { opacity: 0.9; transform: scale(0.95); }
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.panel {
+  background: #111118;
+  border: 1px solid #2a2a3a;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+.panel h2 {
+  margin: 0;
+  color: #f1f5f9;
+  font-size: 16px;
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+:global(*) {
+  box-sizing: border-box;
+}
+
+:global(*::-webkit-scrollbar) {
+  width: 10px;
+  height: 10px;
+}
+
+:global(*::-webkit-scrollbar-track) {
+  background: #0a0a0f;
+}
+
+:global(*::-webkit-scrollbar-thumb) {
+  background: #2a2a3a;
+  border-radius: 999px;
+}
+
+:global(*::-webkit-scrollbar-thumb:hover) {
+  background: #6366f1;
+}
