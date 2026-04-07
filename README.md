@@ -1,5 +1,7 @@
 <div align="center">
-# 🚀 StreamIQ: Real-Time Crypto Anomaly Detection
+
+   # 🚀 StreamIQ: Real-Time Crypto Anomaly Detection
+
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -19,6 +21,7 @@
 [![Microservices](https://img.shields.io/badge/Architecture-Microservices-blueviolet?logoColor=white)]()
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 </div>
 
 StreamIQ is a real-time data platform that monitors the **top 50 cryptocurrencies** and detects unusual market behavior using streaming pipelines and machine learning.
